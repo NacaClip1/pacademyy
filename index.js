@@ -4,7 +4,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefixe = '!';
 
-client.login('NzUxODExNzM4NjU5MzIzOTA0.X1OhPg.9ZSqPP4NZG3Q1hL1JpsNqeY21mI');
+client.login('ODM3MjI0ODAxNDcwMTE5OTk2.YIpcWw.gsUk2kcX4watcqI2YSNm73yrNbc');
  /*************************/  ///NzIxNzU5NDA4Nzk0NjMyMjMz.XujVkA.NEFDFJvwRs7-tqaX7H3oL9UXDAc
  /*   Commande de Statu   */
  /*************************/
@@ -164,7 +164,7 @@ client.on("ready",() => {
 				.setDescription("Votre travail débute dès maintenant.\nRetrouvez ci-dessous les documents utiles à lire avant de venir au poste de police.\n\n")
 				.setColor("#2f3136")
 				.addFields(
-					{ name: "Manuel", value: "[Devenir Policier](https://cdn.discordapp.com/attachments/579022892193284112/742457938303516804/Manuel_du_LSPD-_Version_Officielle.pdf.pdf)", inline: true },
+					{ name: "Manuel", value: "[Devenir Policier](https://cdn.discordapp.com/attachments/832601327535652884/837286939652390912/Manuel_du_LSPD.pdf)", inline: true },
 					{ name: "Code pénal", value: "[Connaître le code pénal](https://cdn.discordapp.com/attachments/579022892193284112/725362163690242141/Code_penale_de_lEtat_de_Fever_2.pdf)", inline: true },
 					{ name: "Lois de l'État de Fever", value: "[Livre de loi](https://cdn.discordapp.com/attachments/579022892193284112/754264377657393212/Lois_Fever.pdf)"},
 				)
